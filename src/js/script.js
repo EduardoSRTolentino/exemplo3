@@ -38,20 +38,37 @@
 
 //FLOAT -> STRING
 
-let numFloat = 123.456;
-console.log(numFloat.toString())
+// let numFloat = 123.456;
+// console.log(numFloat.toString())
 
 // STRING -> FLOAT
 
-let numString = "12.3434"
-console.log(parseFloat(numString))
+// let numString = "12.3434"
+// console.log(parseFloat(numString))
 
 //INT -> STRING
 
-let numInt = 10
-console.log(numInt.toString())
+// let numInt = 10
+// console.log(numInt.toString())
 
-//STRING -> INT
+// STRING -> INT
 
-let numString2 = "10"
-console.log(parseInt(numString2))
+// let numString2 = "10"
+// console.log(parseInt(numString2))
+
+//METODOS
+
+//METODO LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase = "o mundo da tecnologia"
+console.log(frase.length)
+
+//METODO indexof/lastIndexof - RETORNA UM TRECHO DO SEU CODIGO
+let texto = "Programação sustentável ão"
+console.log(texto.indexOf("ão"))
+console.log(texto.lastIndexOf("ão"))
+
+//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E FINAL
+let info ="Programação de ponta"
+console.log(info.slice(15,20))
+
