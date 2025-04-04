@@ -60,15 +60,40 @@
 
 //METODO LENGTH - VERIFICA O TAMANHO DA STRING
 
-let frase = "o mundo da tecnologia"
-console.log(frase.length)
+// let frase = "o mundo da tecnologia"
+// console.log(frase.length)
 
-//METODO indexof/lastIndexof - RETORNA UM TRECHO DO SEU CODIGO
-let texto = "Programação sustentável ão"
-console.log(texto.indexOf("ão"))
-console.log(texto.lastIndexOf("ão"))
+// //METODO indexof/lastIndexof - RETORNA UM TRECHO DO SEU CODIGO
+// let texto = "Programação sustentável ão"
+// console.log(texto.indexOf("ão"))
+// console.log(texto.lastIndexOf("ão"))
 
-//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E FINAL
-let info ="Programação de ponta"
-console.log(info.slice(15,20))
+// //METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E FINAL
+// let info ="Programação de ponta"
+// console.log(info.slice(15,20))
 
+//OPERADORES ARITIMETICOS
+// const a = 10
+// const b = 20
+// console.log(a + b)
+// console.log(a - b)
+// console.log(a * b)
+// console.log(a / b)
+
+//OPERADORES LOGICOS
+
+// const c = 20
+// const d = 30
+// console.log(c < d)
+// console.log(c > d && c < 10)
+// console.log(c > d || c > 10)
+// console.log(c == d || d <= c)
+
+//OPERADORES DE COMPARAÇÃO
+
+const e="10"
+const f="10"
+
+console.log(e == f)
+console.log(e === f)
+console.log(e != f)
