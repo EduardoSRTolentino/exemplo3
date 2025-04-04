@@ -91,9 +91,11 @@
 
 //OPERADORES DE COMPARAÇÃO
 
-const e="10"
-const f="10"
+// const e="10"
+// const f="10"
 
-console.log(e == f)
-console.log(e === f)
-console.log(e != f)
+// console.log(e == f)
+// console.log(e === f)
+// console.log(e != f)
+
+//CONDICIONAL
